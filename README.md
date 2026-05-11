@@ -11,7 +11,8 @@
 ![CI](https://github.com/changhorizon/zip-mover/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 Lightweight PHP library for easily compressing the contents of a directory into a ZIP archive and extracting them. Provides a clean, intuitive API for efficient file packaging workflows.
-n## ✨ 特性
+
+## ✨ 特性
 
 - 🔒 SHA-256 integrity verification between compress and extract
 - 📦 Zero runtime dependencies, PHP built-in ZipArchive only
