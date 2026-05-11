@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ZipMover;
+namespace ChangHorizon\ZipMover;
 
 use FilesystemIterator;
-use Hizpark\ZipMover\Exception\ZipMoverException;
+use ChangHorizon\ZipMover\Exception\ZipMoverException;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use SplFileInfo;

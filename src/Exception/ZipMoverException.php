@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ZipMover\Exception;
+namespace ChangHorizon\ZipMover\Exception;
 
 use RuntimeException;
 

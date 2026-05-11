@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\ZipMover\Tests;
+namespace ChangHorizon\ZipMover\Tests;
 
 use FilesystemIterator;
-use Hizpark\ZipMover\Exception\ZipMoverException;
-use Hizpark\ZipMover\ZipMover;
+use ChangHorizon\ZipMover\Exception\ZipMoverException;
+use ChangHorizon\ZipMover\ZipMover;
 use PHPUnit\Framework\TestCase;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

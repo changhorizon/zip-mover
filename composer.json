@@ -1,5 +1,5 @@
 {
-    "name": "hizpark/zip-mover",
+    "name": "changhorizon/zip-mover",
     "description": "Simple and reliable PHP utility for compressing and extracting a ZIP file",
     "keywords": [],
     "type": "library",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hizpark\\ZipMover\\": "src/"
+            "ChangHorizon\\ZipMover\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hizpark\\ZipMover\\Tests\\": "tests/"
+            "ChangHorizon\\ZipMover\\Tests\\": "tests/"
         }
     },
     "scripts": {

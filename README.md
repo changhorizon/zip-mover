@@ -2,20 +2,20 @@
 
 > Simple and reliable PHP utility for compressing and extracting a ZIP file
 
-![License](https://img.shields.io/github/license/hizpark/zip-mover?style=flat-square)
-![Latest Version](https://img.shields.io/packagist/v/hizpark/zip-mover?style=flat-square)
+![License](https://img.shields.io/github/license/changhorizon/zip-mover?style=flat-square)
+![Latest Version](https://img.shields.io/packagist/v/changhorizon/zip-mover?style=flat-square)
 ![PHP Version](https://img.shields.io/badge/php-8.2--8.4-blue?style=flat-square)
 ![Static Analysis](https://img.shields.io/badge/static_analysis-PHPStan-blue?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-PHPUnit-brightgreen?style=flat-square)
-[![codecov](https://codecov.io/gh/hizpark/zip-mover/branch/main/graph/badge.svg)](https://codecov.io/gh/hizpark/zip-mover)
-![CI](https://github.com/hizpark/zip-mover/actions/workflows/ci.yml/badge.svg?style=flat-square)
+[![codecov](https://codecov.io/gh/changhorizon/zip-mover/branch/main/graph/badge.svg)](https://codecov.io/gh/changhorizon/zip-mover)
+![CI](https://github.com/changhorizon/zip-mover/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 Lightweight PHP library for easily compressing the contents of a directory into a ZIP archive and extracting them. Provides a clean, intuitive API for efficient file packaging workflows.
 
 ## 📦 安装
 
 ```bash
-composer require hizpark/zip-mover
+composer require changhorizon/zip-mover
 ```
 
 ## 📂 目录结构
