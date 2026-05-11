@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace ChangHorizon\ZipMover;
 
-use FilesystemIterator;
 use ChangHorizon\ZipMover\Exception\ZipMoverException;
+use FilesystemIterator;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use SplFileInfo;

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace ChangHorizon\ZipMover\Tests;
 
-use FilesystemIterator;
 use ChangHorizon\ZipMover\Exception\ZipMoverException;
 use ChangHorizon\ZipMover\ZipMover;
+use FilesystemIterator;
 use PHPUnit\Framework\TestCase;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
