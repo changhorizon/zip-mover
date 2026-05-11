@@ -11,6 +11,12 @@
 ![CI](https://github.com/changhorizon/zip-mover/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 Lightweight PHP library for easily compressing the contents of a directory into a ZIP archive and extracting them. Provides a clean, intuitive API for efficient file packaging workflows.
+n## ✨ 特性
+
+- 🔒 SHA-256 integrity verification between compress and extract
+- 📦 Zero runtime dependencies, PHP built-in ZipArchive only
+- 🧹 Automatic temp file cleanup
+- 🚀 Simple fluent API: compress → extract → clean
 
 ## 📦 安装
 
@@ -32,7 +38,7 @@ src
 ### 示例 1：压缩目录为 ZIP 文件
 
 ```php
-use Hizpark\ZipMover\ZipMover;
+use ChangHorizon\ZipMover\ZipMover;
 
 $mover = new ZipMover();
 $mover->compress('/path/to/source-dir');
@@ -41,7 +47,7 @@ $mover->compress('/path/to/source-dir');
 ### 示例 2：解压 ZIP 文件到指定目录
 
 ```php
-use Hizpark\ZipMover\ZipMover;
+use ChangHorizon\ZipMover\ZipMover;
 
 $mover = new ZipMover();
 $mover->extract('/path/to/destination-dir');
